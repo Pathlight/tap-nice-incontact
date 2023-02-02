@@ -2,13 +2,16 @@
   "type": ["null", "object"],
   "additionalProperties": false,
   "properties": {
+    "workflowinstanceId": {
+      "type": ["string"]
+    },
+    "questionId": {
+      "type": ["string"]
+    },
     "actualScore": {
       "type": ["null", "number"]
     },
     "answer": {
-      "type": ["null", "string"]
-    },
-    "questionId": {
       "type": ["null", "string"]
     },
     "questionTitle": {
@@ -27,7 +30,7 @@
       "type": ["null", "string"]
     },
     "formVersion": {
-      "type": ["string"]
+      "type": ["null", "string"]
     },
     "evaluationScore%": {
       "type": ["null", "number"]
@@ -101,9 +104,6 @@
     "interactionEndDate": {
         "type": ["null", "string"],
         "format": "date-time"
-    },
-    "workflowinstanceId": {
-      "type": ["null", "string"]
     },
     "bankId": {
       "type": ["null", "string"]

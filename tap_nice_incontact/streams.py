@@ -815,9 +815,9 @@ class QMQuestions(DataExtractionStream):
     entity_name = 'qm-questions'
     entity_version = 1
 
-    key_properties = ['evaluationSubmissionDate', 'workflowinstanceId']
+    key_properties = ['workflowinstanceId', 'questionId']
     replication_key = 'evaluationSubmissionDate'
-    valid_replication_keys = ['evaluationSubmissionDate', 'interactionStartDate']
+    valid_replication_keys = ['evaluationSubmissionDate', 'evaluationStartDate', 'interactionStartDate']
     data_key = 'qmQuestions'
 
 
