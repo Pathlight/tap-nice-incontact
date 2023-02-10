@@ -23,4 +23,3 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ./.github/workflows/base
       - run: make test
-  
